@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+name: SQF+CBA
+file_extensions:
+  - sqf
+scope: source.sqf
+contexts:
+  main:
+    - include: "Packages/SQF Language/SQF.tmLanguage"
+    - match: Q?Q?E?GVAR
+      scope: keyword.other.sqf
+    - match: Q?Q?E?FUNC
+      scope: keyword.other.sqf
+    - match: PREP(MAIN)?
+      scope: keyword.other.sqf
+    - match: Q?PATHTOE?F
+      scope: keyword.other.sqf

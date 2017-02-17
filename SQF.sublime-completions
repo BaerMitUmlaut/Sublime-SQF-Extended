@@ -1,0 +1,35 @@
+{
+    "scope": "source.sqf",
+    "include": "Packages/SQF Language/SQF.sublime-completions",
+    "completions": [
+        // GVAR
+        { "trigger":    "GVAR", "contents":    "GVAR($1)$0" },
+        { "trigger":   "QGVAR", "contents":   "QGVAR($1)$0" },
+        { "trigger":  "QQGVAR", "contents":  "QQGVAR($1)$0" },
+
+        // EGVAR
+        { "trigger":   "EGVAR", "contents":   "EGVAR($1,$2)$0" },
+        { "trigger":  "QEGVAR", "contents":  "QEGVAR($1,$2)$0" },
+        { "trigger": "QQEGVAR", "contents": "QQEGVAR($1,$2)$0" },
+
+        // FUNC
+        { "trigger":    "FUNC", "contents":    "FUNC($1)$0" },
+        { "trigger":   "QFUNC", "contents":   "QFUNC($1)$0" },
+        { "trigger":  "QQFUNC", "contents":  "QQFUNC($1)$0" },
+
+        // EFUNC
+        { "trigger":   "EFUNC", "contents":   "EFUNC($1,$2)$0" },
+        { "trigger":  "QEFUNC", "contents":  "QEFUNC($1,$2)$0" },
+        { "trigger": "QQEFUNC", "contents": "QQEFUNC($1,$2)$0" },
+
+        // PREP
+        { "trigger": "PREP",     "contents": "PREP($1)$0" },
+        { "trigger": "PREPMAIN", "contents": "PREPMAIN($1)$0" },
+
+        // Filepath macros
+        { "trigger":  "PATHTOF",  "contents":  "PATHTOF($1)$0" },
+        { "trigger": "QPATHTOF",  "contents": "QPATHTOF($1)$0" },
+        { "trigger":  "PATHTOEF", "contents":  "PATHTOEF($1,$2)$0" },
+        { "trigger": "QPATHTOEF", "contents": "QPATHTOEF($1,$2)$0" }
+    ]
+}
